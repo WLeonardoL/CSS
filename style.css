@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body > header{
+    background-color: rgb(70, 68, 68);
+    padding: 16px 0;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+header li{ 
+    display: inline;
+}
+header li a{
+    color: white;
+    margin-left: 16px;
+    text-decoration: none;
+    border-style: ridge;
+    padding: 5px;
+}
+header li a:hover{
+    font-weight: bold;
+    background-color: black;
+    text-decoration: double;
+}
+
+.container{
+    width: 1366px;
+    margin: 2px auto;
+
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 24px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: rgb(105, 15, 141);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none; 
+    margin-top: 8px;
+    font-weight:lighter
+}
+
+.articles article a:hover{
+    font-weight: bold;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#Ambiental{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#Ambiental .articles article a{
+    background-color: green;
+}
+
+#olimpiadas{
+    background-color: rgba(100, 0, 255, 0.1);
+}
